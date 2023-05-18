@@ -1,0 +1,82 @@
+h1 {
+    position: absolute;
+    top: 10px;
+    right: 50px;
+    width: auto;
+}
+
+h2 {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    font-style: italic;
+    margin: 10% 30%;
+    text-decoration: underline yellowgreen;
+}
+
+body {
+    background: lightblue;
+}
+
+h3 {
+    font-size: 70%;
+    color: yellowgreen;
+}
+
+textarea {
+    margin: 20px 70px 20px;
+    top: 0;
+    display: block;
+    border: none;
+    background: #72a8ea;
+    text-transform: lowercase;
+    border-radius: 5px;
+}
+
+::placeholder {
+    color: rgb(95, 134, 18);
+    font-size: 20px;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+.padron {
+    text-align: center;
+}
+
+.enviar, .copy {
+    width: 10%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    background: yellowgreen;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px 100px;
+}
+
+.copia {
+    margin-left: auto;
+    text-align: center;
+}
+
+.copy {
+    position: absolute;
+    top: 800px;
+    right: 0;
+    margin: 0 275px;
+}
+
+.copyright {
+    font-style: italic;
+    font-size: 70%;
+    margin: 0 0;
+}
+
+
+
+

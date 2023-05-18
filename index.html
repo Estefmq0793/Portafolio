@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=devise-width">
+        <title>Encriptador</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <div>
+                <h1><img src="logo.jpeg" alt="logo de alura"></h1>
+                <h2>Ocultando Información</h2>
+            </div>
+        </header>
+
+        <main>
+            <section>
+
+                <div>
+                    <h3>Solo letras minúculas y sin acentos</h3>
+                </div>
+
+                <textarea cols="70" rows="10" id="mensaje" class="padron" required placeholder="Escribe tú texto aquí"></textarea>
+
+                <input type="submit" value="Encriptar" onclick="btnEncriptar()" class="enviar">
+
+                <input type="submit" value="Desencriptar" onclick="btnDesencriptar()" class="enviar">
+
+                <textarea cols="70" rows="10" class="copia" id="copiado" required placeholder="Texto encriptado"></textarea>
+
+                <input type="submit" value="Copiar" onclick="btnCopiar()" class="copy">
+            </section>
+        </main>
+
+    <script src="script.js"></script>
+
+    <footer>
+        <p class="copyright">Desarrollado por Estefanny Marín Quirós-ESTUDIANTE DE ALURA-CHALLENGE ENCRIPTADOR</p>
+    </footer>
+        
+    </body>
+</html>
